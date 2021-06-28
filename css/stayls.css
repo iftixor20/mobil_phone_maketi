@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  margin: 50px;
+  padding: 100px;
+  background-color: darkcyan;
+}
+
+.container {
+  max-width: 1100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  width: 850px;
+  height: 350px;
+  display: flex;
+  color: black;
+  margin-left: 100px;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 30px;
+  background-color: aliceblue;
+  font-family: 'Arial', 'sans-serif';
+}
+
+.icon {
+  margin-top: 55px;
+  margin-left: 85px;
+  margin-right: 50px;
+  text-align: center;
+  margin-bottom: 22px;
+  justify-content: center;
+}
+
+.header_li {
+  font-size: 16px;
+  margin-bottom: 33px;
+  color: dodgerblue;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.header_p {
+  font-size: 14px;
+  padding-left: 25px;
+  color: rgb(163, 162, 162);
+
+}
+
+.header_span {
+  display: block;
+  font-size: 16px;
+  padding-top: 25px;
+  padding-left: 40px;
+  color: dodgerblue;
+}
+
+.header_b {
+  font-size: 25px;
+}
